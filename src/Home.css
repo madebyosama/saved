@@ -1,0 +1,22 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 64px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column video {
+  margin-top: 8px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
